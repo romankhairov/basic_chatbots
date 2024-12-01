@@ -10,7 +10,13 @@ def restaurant_bot():
     phone = input("Lastly, your phone number, please: ")
 
     # print confirm the reservation
-  
+    print("\nThank you! Here are your reservation details:")
+    print(f"Name: {name}")
+    print(f"Date: {date}")
+    print(f"Time: {time}")
+    print(f"Number of people: {people}")
+    print(f"Phone: {phone}")
+    print("\nYour table is reserved. We look forward to seeing you!")  
 
 # run chatbot
 restaurant_bot()
